@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\infraestructure\\persistence\\atencionclientescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:infraestructure\\persistence\\atencionclientescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\migrations\\20250714233342_atencionclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:migrations\\20250714233342_atencionclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\migrations\\atencionclientescontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:migrations\\atencionclientescontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\webatencionclientes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:webatencionclientes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 18,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AtencionClientesContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Migrations\\AtencionClientesContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AtencionClientesContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Migrations\\AtencionClientesContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AtencionClientesContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T23:39:28.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T23:39:23.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250714233342_AtencionClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Migrations\\20250714233342_AtencionClientes.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250714233342_AtencionClientes.cs",
+              "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Migrations\\20250714233342_AtencionClientes.cs",
+              "RelativeToolTip": "Migrations\\20250714233342_AtencionClientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T23:33:42.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T23:30:57.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T23:27:57.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AtencionClientesContext.cs",
+              "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Infraestructure\\Persistence\\AtencionClientesContext.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Persistence\\AtencionClientesContext.cs",
+              "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Infraestructure\\Persistence\\AtencionClientesContext.cs",
+              "RelativeToolTip": "Infraestructure\\Persistence\\AtencionClientesContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T23:21:42.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebAtencionClientes",
+              "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\WebAtencionClientes.csproj",
+              "RelativeDocumentMoniker": "WebAtencionClientes.csproj",
+              "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\WebAtencionClientes.csproj",
+              "RelativeToolTip": "WebAtencionClientes.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-14T23:18:30.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 695,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
