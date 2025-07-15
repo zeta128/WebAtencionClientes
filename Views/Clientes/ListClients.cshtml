@@ -1,0 +1,50 @@
+﻿@model IEnumerable<WebAtencionClientes.Models.Entitites.ATENCION_CLIENTE>
+
+@{
+    ViewData["Title"] = "Listado de Clientes";
+    Layout = "_Layout"; // Este es el nombre del layout por defecto
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">@ViewData["Title"]</h2>
+
+    <div class="text-end mb-3">
+        <a asp-controller= "Clientes" asp-action="AddClients"" class="btn btn-success">Agregar Nuevo Cliente</a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.First().NOMBRE)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().APELLIDOS)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().CELULAR)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().EMAIL)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().SEXO)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().MOTIVO)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().FECHA_ALTA)</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                        <tr>
+                            <td>@item.NOMBRE</td>
+                            <td>@item.APELLIDOS</td>
+                            <td>@item.CELULAR</td>
+                            <td>@item.EMAIL</td>
+                            <td>@item.SEXO</td>
+                            <td>@item.MOTIVO</td>
+                            <td>@item.FECHA_ALTA.ToString("dd/MM/yyyy")</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary me-1">Editar</a>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info me-1">Detalles</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Eliminar</a>
+                            </td>
+                        </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
