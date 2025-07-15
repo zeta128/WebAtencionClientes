@@ -5,6 +5,8 @@
     Layout = "_Layout";
 }
 
+
+
 <h1 class="text-center mb-4">Agregar Cliente</h1>
 
 <div class="container mt-5">
@@ -19,7 +21,7 @@
                 @* Muestra errores de validación generales *@
                 @if (!ViewData.ModelState.IsValid)
                 {
-                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
                 }
 
                 <div class="mb-3">
@@ -93,7 +95,20 @@
 </div>
 
 @section Scripts {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+    @if (TempData["mensaje"] != null)
+    {
+        <script>
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: '@TempData["mensaje"]'
+            });
+        </script>
+    }
+
 }

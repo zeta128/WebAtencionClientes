@@ -51,13 +51,14 @@ namespace WebAtencionClientes.Controllers
                 {
                     await _serviceInfoClients.InsertInfoCliente(client);
                     TempData["AlertMessage"] = "Cliente registrado correctamente";
+                    TempData["mensaje"] = "Registro exitoso";                 
                     return RedirectToAction("ListClients");
                 }
                 
             }
             catch (Exception ex)
-            {
-                ModelState.AddModelError(String.Empty, "Ha ocurrido un error");
+            {      
+                TempData["mensaje"] = ex.Message;
             }
             return View(client);
 
