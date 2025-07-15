@@ -52,8 +52,12 @@ namespace WebAtencionClientes.Controllers
                     await _serviceInfoClients.InsertInfoCliente(client);
                     TempData["AlertMessage"] = "Cliente registrado correctamente";
                     TempData["mensaje"] = "Registro exitoso." +
-     "INSERT INTO [dbo].[InfoCliente] ([NOMBRE],[APELLIDOS],[CELULAR],[EMAIL],[SEXO],[MOTIVO],[FECHA_ALTA])" +
-     $"VALUES('{client.NOMBRE}', '{client.APELLIDOS}', '{client.CELULAR}', '{client.EMAIL}', '{client.SEXO}', '{client.MOTIVO}', GETDATE())";
+                    "SELECT  [Id],[NOMBRE],[APELLIDOS],[CELULAR],[EMAIL],[SEXO],[MOTIVO],[FECHA_ALTA]\r\n" +
+                    "FROM [DBAtencionClientes].[dbo].[InfoCliente] " +
+                    "WHERE CELULAR != 'ValorVariableCelular' AND FORMAT(FECHA_ALTA, 'yyyy-MM-dd')  = FORMAT(GETDATE(), 'yyyy-MM-dd')" +
+
+                    "INSERT INTO [dbo].[InfoCliente] ([NOMBRE],[APELLIDOS],[CELULAR],[EMAIL],[SEXO],[MOTIVO],[FECHA_ALTA])" +
+                    $"VALUES('{client.NOMBRE}', '{client.APELLIDOS}', '{client.CELULAR}', '{client.EMAIL}', '{client.SEXO}', '{client.MOTIVO}', GETDATE())";
 
 
                     return RedirectToAction("ListClients");
