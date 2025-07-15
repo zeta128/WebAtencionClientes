@@ -9,15 +9,15 @@ namespace WebAtencionClientes.Models.Entitites
         public string NOMBRE { get; set; }
         [Display(Name = "Apellidos")]
         public string APELLIDOS { get; set; }
-        [Display(Name = "Nombre")]
+        [Display(Name = "Celular")]
         public string CELULAR { get; set; }
-        [Display(Name = "Nombre")]
+        [Display(Name = "Email")]
         public string EMAIL { get; set; }
-        [Display(Name = "Nombre")]
+        [Display(Name = "Sexo")]
         public string SEXO { get; set; }
-        [Display(Name = "Nombre")]
+        [Display(Name = "Motivo")]
         public string MOTIVO { get; set; }
-        [Display(Name = "Nombre")]
+        [Display(Name = "Fecha")]
         public DateTime FECHA_ALTA { get; set; }
     }
 }
