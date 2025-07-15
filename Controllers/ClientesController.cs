@@ -12,7 +12,7 @@ namespace WebAtencionClientes.Controllers
     [Route("[controller]/[action]")] // Esto hace que el controlador se mapee a api/usuarios, por ejemplo
     public class ClientesController : Controller
     {
-        private readonly IServiceInfoClients  _serviceInfoClients;
+        private readonly IServiceInfoClients _serviceInfoClients;
         public ClientesController(IServiceInfoClients serviceInfoClients)
         {
             _serviceInfoClients = serviceInfoClients;
@@ -21,9 +21,9 @@ namespace WebAtencionClientes.Controllers
         [HttpGet]
         public async Task<IActionResult> ListClients()
         {
-            return View( await _serviceInfoClients.GetInfoClientesList());
+            return View(await _serviceInfoClients.GetInfoClientesList());
         }
-    
+        [HttpGet]
         public async Task<IActionResult> AddClients()
         {
             
