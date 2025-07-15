@@ -65,8 +65,7 @@
 
     <!--Configuración para activar la búsqueda de registros por fechas al seleccionar la fecha final-->
     @section Scripts {
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">      
         <script>
             document.getElementById("fechaFin").addEventListener("change", function () {
                 document.getElementById("filtroFechasForm").submit();
@@ -75,11 +74,13 @@
         </script>
         @if (TempData["mensaje"] != null)
         {
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
             <script>
                 Swal.fire({
                     icon: 'success',
-                    title: 'Éxito',
-                    text: '@TempData["mensaje"]'
+                    title: 'Operación exitosa',
+                    text: '@(TempData["mensaje"])'
                 });
             </script>
         }

@@ -25,21 +25,21 @@ namespace WebAtencionClientes.Controllers
 
             if (fechaInicio.HasValue && fechaFin.HasValue)
             {
-                clientes = await _serviceInfoClients.GetInfoClientesList(fechaInicio,fechaFin);
+                clientes = await _serviceInfoClients.GetInfoClientesList(fechaInicio, fechaFin);
             }
             else
             {
-                clientes = await _serviceInfoClients.GetInfoClientesList(null,null);
+                clientes = await _serviceInfoClients.GetInfoClientesList(null, null);
             }
             return View(clientes);
         }
-       
+
         [HttpGet]
         public async Task<IActionResult> AddClients()
         {
-            
-                return View(new ATENCION_CLIENTE());
-       
+
+            return View(new ATENCION_CLIENTE());
+
         }
         [HttpPost]
         public async Task<IActionResult> AddClients(ATENCION_CLIENTE client)
@@ -51,18 +51,22 @@ namespace WebAtencionClientes.Controllers
                 {
                     await _serviceInfoClients.InsertInfoCliente(client);
                     TempData["AlertMessage"] = "Cliente registrado correctamente";
-                    TempData["mensaje"] = "Registro exitoso";                 
+                    TempData["mensaje"] = "Registro exitoso." +
+     "INSERT INTO [dbo].[InfoCliente] ([NOMBRE],[APELLIDOS],[CELULAR],[EMAIL],[SEXO],[MOTIVO],[FECHA_ALTA])" +
+     $"VALUES('{client.NOMBRE}', '{client.APELLIDOS}', '{client.CELULAR}', '{client.EMAIL}', '{client.SEXO}', '{client.MOTIVO}', GETDATE())";
+
+
                     return RedirectToAction("ListClients");
                 }
-                
+
             }
             catch (Exception ex)
-            {      
+            {
                 TempData["mensaje"] = ex.Message;
             }
             return View(client);
 
         }
-       
+
     }
 }
