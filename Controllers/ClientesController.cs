@@ -21,14 +21,15 @@ namespace WebAtencionClientes.Controllers
         [HttpGet]
         public async Task<IActionResult> ListClients(DateTime? fechaInicio, DateTime? fechaFin)
         {
-            var clientes = await _serviceInfoClients.GetInfoClientesList();
+            List<ATENCION_CLIENTE> clientes = new List<ATENCION_CLIENTE>();
 
             if (fechaInicio.HasValue && fechaFin.HasValue)
             {
-                clientes = clientes.Where(c =>
-                    c.FECHA_ALTA.Date >= fechaInicio.Value.Date &&
-                    c.FECHA_ALTA.Date <= fechaFin.Value.Date
-                ).ToList();
+                clientes = await _serviceInfoClients.GetInfoClientesList(fechaInicio,fechaFin);
+            }
+            else
+            {
+                clientes = await _serviceInfoClients.GetInfoClientesList(null,null);
             }
             return View(clientes);
         }
