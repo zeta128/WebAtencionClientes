@@ -36,7 +36,7 @@ namespace WebAtencionClientes.Controllers
 
             try
             {
-                if (!ModelState.IsValid)
+                if (ModelState.IsValid)
                 {
                     await _serviceInfoClients.InsertInfoCliente(client);
                     TempData["AlertMessage"] = "Cliente registrado correctamente";

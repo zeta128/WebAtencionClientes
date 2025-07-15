@@ -18,7 +18,8 @@ namespace WebAtencionClientes.Services
 
         public async Task<ATENCION_CLIENTE> InsertInfoCliente(ATENCION_CLIENTE cliente)
         {
-
+            int nuevoId = _clients.Any() ? _clients.Max(c => c.Id) + 1 : 1;
+            cliente.Id = nuevoId;
             _clients.Add(cliente);
             return cliente;
             //Conexión con base de datos y guardado

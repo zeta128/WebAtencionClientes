@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\services\\serviceinfoclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:services\\serviceinfoclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\views\\clientes\\addclients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:views\\clientes\\addclients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\models\\entitites\\atencion_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:models\\entitites\\atencion_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\infraestructure\\persistence\\atencionclientescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:views\\clientes\\listclients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\services\\serviceinfoclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:services\\serviceinfoclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEDB6030-7838-4BA4-878D-DC0E41589438}|WebAtencionClientes.csproj|c:\\users\\edwin\\source\\repos\\webatencionclientes\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 18,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,19 +82,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "ATENCION_CLIENTE.cs",
+              "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Models\\Entitites\\ATENCION_CLIENTE.cs",
+              "RelativeDocumentMoniker": "Models\\Entitites\\ATENCION_CLIENTE.cs",
+              "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Models\\Entitites\\ATENCION_CLIENTE.cs",
+              "RelativeToolTip": "Models\\Entitites\\ATENCION_CLIENTE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:49:34.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ServiceInfoClients.cs",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Services\\ServiceInfoClients.cs",
               "RelativeDocumentMoniker": "Services\\ServiceInfoClients.cs",
               "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Services\\ServiceInfoClients.cs",
               "RelativeToolTip": "Services\\ServiceInfoClients.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T00:56:11.233Z"
+              "WhenOpened": "2025-07-15T00:56:11.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -102,20 +120,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-15T00:31:23.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -127,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -139,46 +157,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ListClients.cshtml",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Views\\Clientes\\ListClients.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\ListClients.cshtml",
               "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Views\\Clientes\\ListClients.cshtml",
               "RelativeToolTip": "Views\\Clientes\\ListClients.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-15T00:26:35.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddClients.cshtml",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Views\\Clientes\\AddClients.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\AddClients.cshtml",
               "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Views\\Clientes\\AddClients.cshtml",
               "RelativeToolTip": "Views\\Clientes\\AddClients.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAwDEAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-15T00:26:08.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
               "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwCgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T00:07:01.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AtencionClientesContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Migrations\\AtencionClientesContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\AtencionClientesContextModelSnapshot.cs",
@@ -190,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
@@ -202,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "20250714233342_AtencionClientes.cs",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Migrations\\20250714233342_AtencionClientes.cs",
               "RelativeDocumentMoniker": "Migrations\\20250714233342_AtencionClientes.cs",
@@ -214,19 +232,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T23:30:57.942Z"
+              "WhenOpened": "2025-07-14T23:30:57.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -238,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AtencionClientesContext.cs",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\Infraestructure\\Persistence\\AtencionClientesContext.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Persistence\\AtencionClientesContext.cs",
@@ -251,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "WebAtencionClientes.csproj",
               "DocumentMoniker": "C:\\Users\\Edwin\\source\\repos\\WebAtencionClientes\\WebAtencionClientes.csproj",
               "RelativeDocumentMoniker": "WebAtencionClientes.csproj",

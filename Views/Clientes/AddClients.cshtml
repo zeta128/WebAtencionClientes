@@ -11,7 +11,7 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
 
-            <form asp-controller="Clientes" asp-action="RegisterClientClick" method="post">
+            <form asp-controller="Clientes" asp-action="AddClients" method="post">
                 @* Campo oculto para el ID (por si se usa para edición o validación) *@
                 <input type="hidden" asp-for="Id" />
                
@@ -24,37 +24,37 @@
 
                 <div class="mb-3">
                     <label asp-for="NOMBRE" class="form-label">Nombre</label>
-                    <input asp-for="NOMBRE" class="form-control" />
+                    <input name="NOMBRE" asp-for="NOMBRE" class="form-control" />
                     <span asp-validation-for="NOMBRE" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label asp-for="APELLIDOS" class="form-label">Apellidos</label>
-                    <input asp-for="APELLIDOS" class="form-control" />
+                    <input name="APELLIDOS" asp-for="APELLIDOS" class="form-control" />
                     <span asp-validation-for="APELLIDOS" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label asp-for="CELULAR" class="form-label">Celular</label>
-                    <input asp-for="CELULAR" class="form-control" />
+                    <input name="CELULAR" asp-for="CELULAR" class="form-control" />
                     <span asp-validation-for="CELULAR" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label asp-for="EMAIL" class="form-label">Email</label>
-                    <input asp-for="EMAIL" class="form-control" />
+                    <input name="EMAIL" asp-for="EMAIL" class="form-control" />
                     <span asp-validation-for="EMAIL" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label asp-for="SEXO" class="form-label">Sexo</label>
-                    <input asp-for="SEXO" class="form-control" />
+                    <input name="SEXO" asp-for="SEXO" class="form-control" />
                     <span asp-validation-for="SEXO" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label asp-for="MOTIVO" class="form-label">Motivo</label>
-                    <input asp-for="MOTIVO" class="form-control" />
+                    <input name="MOTIVO" asp-for="MOTIVO" class="form-control" />
                     <span asp-validation-for="MOTIVO" class="text-danger"></span>
                 </div>
 
