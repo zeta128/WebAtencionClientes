@@ -20,6 +20,7 @@ namespace WebAtencionClientes.Services
         {
             int nuevoId = _clients.Any() ? _clients.Max(c => c.Id) + 1 : 1;
             cliente.Id = nuevoId;
+            cliente.FECHA_ALTA = DateTime.Now;
             _clients.Add(cliente);
             return cliente;
             //Conexión con base de datos y guardado

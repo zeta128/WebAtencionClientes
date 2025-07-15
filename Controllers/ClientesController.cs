@@ -19,15 +19,25 @@ namespace WebAtencionClientes.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> ListClients()
+        public async Task<IActionResult> ListClients(DateTime? fechaInicio, DateTime? fechaFin)
         {
-            return View(await _serviceInfoClients.GetInfoClientesList());
+            var clientes = await _serviceInfoClients.GetInfoClientesList();
+
+            if (fechaInicio.HasValue && fechaFin.HasValue)
+            {
+                clientes = clientes.Where(c =>
+                    c.FECHA_ALTA.Date >= fechaInicio.Value.Date &&
+                    c.FECHA_ALTA.Date <= fechaFin.Value.Date
+                ).ToList();
+            }
+            return View(clientes);
         }
+       
         [HttpGet]
         public async Task<IActionResult> AddClients()
         {
             
-                return View(new ATENCION_CLIENTE { FECHA_ALTA = DateTime.Now });
+                return View(new ATENCION_CLIENTE());
        
         }
         [HttpPost]

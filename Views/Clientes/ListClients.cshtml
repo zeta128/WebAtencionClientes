@@ -4,20 +4,34 @@
     ViewData["Title"] = "Listado de Clientes";
     Layout = "_Layout"; // Este es el nombre del layout por defecto
 }
+
 <meta http-equiv="refresh" content="30">
 <div class="container mt-4">
     <h2 class="text-center mb-4">@ViewData["Title"]</h2>
+    <form asp-action="ListClients" method="get" id="filtroFechasForm" class="row g-3 mb-4">
+        <div class="col-md-5">
+            <label for="fechaInicio" class="form-label text-white">Fecha Inicial</label>
+            <input type="date" class="form-control" id="fechaInicio" name="fechaInicio" value="@Context.Request.Query["fechaInicio"]" />
+        </div>
+        <div class="col-md-5">
+            <label for="fechaFin" class="form-label text-white">Fecha Final</label>
+            <input type="date" class="form-control" id="fechaFin" name="fechaFin" value="@Context.Request.Query["fechaFin"]" />
+        </div>
+    </form>
 
-    <div class="text-end mb-3">
-        <a class="btn btn-success" asp-controller="Clientes" asp-action="AddClients" href="#">Agregar Nuevo Cliente</a>
-      
-    </div>
+    
+    <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("AddClients", "Clientes")'">
+        Agregar Cliente
+    </button>
+
 
     <div class="table-responsive">
         <table class="table table-bordered table-hover align-middle">
             <thead class="table-dark text-center">
                 <tr>
-                    <th>@Html.DisplayNameFor(model => model.First().NOMBRE)</th>
+                    <th>                     
+                        @Html.DisplayNameFor(model => model.First().NOMBRE)
+                    </th>
                     <th>@Html.DisplayNameFor(model => model.First().APELLIDOS)</th>
                     <th>@Html.DisplayNameFor(model => model.First().CELULAR)</th>
                     <th>@Html.DisplayNameFor(model => model.First().EMAIL)</th>
@@ -48,4 +62,13 @@
             </tbody>
         </table>
     </div>
+
+    <!--Configuración para activar la búsqueda de registros por fechas al seleccionar la fecha final-->
+    @section Scripts {
+        <script>
+            document.getElementById("fechaFin").addEventListener("change", function () {
+                document.getElementById("filtroFechasForm").submit();
+            });
+        </script>
+    }
 </div>
