@@ -36,9 +36,13 @@ namespace WebAtencionClientes.Controllers
 
             try
             {
-                await _serviceInfoClients.InsertInfoCliente(client);
-                TempData["AlertMessage"] = "Cliente registrado correctamente";
-                return RedirectToAction("ListClients");
+                if (!ModelState.IsValid)
+                {
+                    await _serviceInfoClients.InsertInfoCliente(client);
+                    TempData["AlertMessage"] = "Cliente registrado correctamente";
+                    return RedirectToAction("ListClients");
+                }
+                
             }
             catch (Exception ex)
             {
